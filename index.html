@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Photo Gallery</title>
+    <style>
+        .photo_gallery{
+            display: flex;
+            flex-wrap: wrap;
+            grid-gap: 2em;
+        }
+        .photo{
+            height: 300px;
+            width: 450px;
+            border: 5px solid rgb(140, 187, 12);
+            position: relative;
+            transition: .6s;
+            overflow: hidden;
+        }
+        .photo:hover .photo_details{
+            opacity: 1;
+            transition:.6s ease-out;
+        }
+        .photo:hover .photo_img{
+            transform: scale(1.7);
+            transition: transform .4s ease-out;
+        }
+        .photo_img img{
+            max-width: 100%;
+        }
+        .photo_details{
+            position: absolute;
+            text-align: center;
+            top: 0;
+            left: 0;
+            width: 450px;
+            height: 100%;
+            opacity: 0;
+            background-color: rgba(0, 139, 139, 0.781);
+            color: white;
+            font-size: 1.8rem;
+        }
+        .photo_details h2{
+            background-color: rgb(85, 11, 11);
+            padding: 6px 0;
+        }
+        
+    </style>
+</head>
+<body>
+    <h1>Photo Gallery</h1>
+    <div class="photo_gallery">
+        <div class="photo">
+            <div class="photo_img">
+                <img src="./Image/islam.jpg" alt="">
+            </div>
+            <div class="photo_details">
+                <div>
+                    <h2>Masjid-ul-Aqsa</h2>
+                     <p>This mosque is situated in Palestine. This is a very importence mosque which is attached with muslin identity. The first prayer direction for muslims was this famous mosque.</p>
+                </div>
+            </div>
+        </div>
+        <div class="photo">
+            <div class="photo_img">
+                <img src="./Image/islam.jpg" alt="">
+            </div>
+            <div class="photo_details">
+                <div>
+                    <h2>Masjid-ul-Aqsa</h2>
+                     <p>This mosque is situated in Palestine. This is a very importence mosque which is attached with muslin identity. The first prayer direction for muslims was this famous mosque.</p>
+                </div>
+            </div>
+        </div>
+        <div class="photo">
+            <div class="photo_img">
+                <img src="./Image/islam.jpg" alt="">
+            </div>
+            <div class="photo_details">
+                <div>
+                    <h2>Masjid-ul-Aqsa</h2>
+                     <p>This mosque is situated in Palestine. This is a very importence mosque which is attached with muslin identity. The first prayer direction for muslims was this famous mosque.</p>
+                </div>
+            </div>
+        </div>
+        <div class="photo">
+            <div class="photo_img">
+                <img src="./Image/islam.jpg" alt="">
+            </div>
+            <div class="photo_details">
+                <div>
+                    <h2>Masjid-ul-Aqsa</h2>
+                     <p>This mosque is situated in Palestine. This is a very importence mosque which is attached with muslin identity. The first prayer direction for muslims was this famous mosque.</p>
+                </div>
+            </div>
+        </div>
+        <div class="photo">
+            <div class="photo_img">
+                <img src="./Image/islam.jpg" alt="">
+            </div>
+            <div class="photo_details">
+                <div>
+                    <h2>Masjid-ul-Aqsa</h2>
+                     <p>This mosque is situated in Palestine. This is a very importence mosque which is attached with muslin identity. The first prayer direction for muslims was this famous mosque.</p>
+                </div>
+            </div>
+        </div>
+        <div class="photo">
+            <div class="photo_img">
+                <img src="./Image/islam.jpg" alt="">
+            </div>
+            <div class="photo_details">
+                <div>
+                    <h2>Masjid-ul-Aqsa</h2>
+                     <p>This mosque is situated in Palestine. This is a very importence mosque which is attached with muslin identity. The first prayer direction for muslims was this famous mosque.</p>
+                </div>
+            </div>
+        </div>
+        <div class="photo">
+            <div class="photo_img">
+                <img src="./Image/islam.jpg" alt="">
+            </div>
+            <div class="photo_details">
+                <div>
+                    <h2>Masjid-ul-Aqsa</h2>
+                     <p>This mosque is situated in Palestine. This is a very importence mosque which is attached with muslin identity. The first prayer direction for muslims was this famous mosque.</p>
+                </div>
+            </div>
+        </div>
+        <div class="photo">
+            <div class="photo_img">
+                <img src="./Image/islam.jpg" alt="">
+            </div>
+            <div class="photo_details">
+                <div>
+                    <h2>Masjid-ul-Aqsa</h2>
+                     <p>This mosque is situated in Palestine. This is a very importence mosque which is attached with muslin identity. The first prayer direction for muslims was this famous mosque.</p>
+                </div>
+            </div>
+        </div>
+        <div class="photo">
+            <div class="photo_img">
+                <img src="./Image/islam.jpg" alt="">
+            </div>
+            <div class="photo_details">
+                <div>
+                    <h2>Masjid-ul-Aqsa</h2>
+                     <p>This mosque is situated in Palestine. This is a very importence mosque which is attached with muslin identity. The first prayer direction for muslims was this famous mosque.</p>
+                </div>
+            </div>
+        </div>
+        <div class="photo">
+            <div class="photo_img">
+                <img src="./Image/islam.jpg" alt="">
+            </div>
+            <div class="photo_details">
+                <div>
+                    <h2>Masjid-ul-Aqsa</h2>
+                     <p>This mosque is situated in Palestine. This is a very importence mosque which is attached with muslin identity. The first prayer direction for muslims was this famous mosque.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
